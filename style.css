@@ -1,0 +1,48 @@
+/* Custom styles for code clarity and monospace font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Fira+Code:wght@400;700&display=swap');
+
+/* THEME OVERHAUL: Dark Slate Gray */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #20232a; /* Main Dark Background */
+}
+
+#code-display {
+    font-family: 'Fira Code', monospace;
+    white-space: pre-wrap; /* Allows the text to wrap */
+    word-wrap: break-word;
+    line-height: 1.5;
+    tab-size: 4;
+    font-size: 1.1rem;
+    min-height: 200px;
+}
+
+/* Styling for the typed characters */
+.correct { 
+    color: #34d399; /* Emerald 400 (Green) */
+}
+
+/* NEW: Incorrect character styling */
+.incorrect {
+    color: #ef4444; /* Red 500 */
+    background-color: #b91c1c; /* Darker red background for visibility */
+    border-radius: 2px;
+}
+
+.cursor { 
+    background-color: #f59e0b; /* Amber 500 */
+    color: #1f2937; /* Dark text for contrast */
+    border-radius: 2px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* Hide default focus outline for a cleaner look */
+#typing-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.5); /* Sky Blue focus ring */
+}

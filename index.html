@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Typing Challenge (Accuracy Mode)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-4 md:p-8 min-h-screen flex items-center justify-center">
+
+    <div id="app" class="w-full max-w-4xl bg-[#2d3138] shadow-2xl rounded-2xl p-6 md:p-10 transition-all duration-300">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-sky-400 mb-6 text-center border-b-4 border-sky-400 pb-2">
+            Code Typing Challenge
+        </h1>
+        <p class="text-center text-gray-400 mb-8" id="challenge-motto">Type the code to check your accuracy!</p>
+
+        <div id="settings-area" class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8 p-4 bg-[#1d1e23] rounded-xl shadow-inner">
+            <div class="flex items-center space-x-3">
+                <label for="time-limit" class="text-lg font-medium text-gray-300">Time Limit (seconds):</label>
+                <input type="number" id="time-limit" value="60" min="0" max="300" 
+                        class="w-20 p-2 border-2 border-gray-700 rounded-lg text-center font-bold text-gray-100 bg-gray-900 focus:border-sky-500 transition duration-150">
+            </div>
+            <button id="start-button" 
+                    class="w-full sm:w-auto px-6 py-3 text-lg font-semibold rounded-lg text-white bg-green-600 hover:bg-green-700 transition duration-200 shadow-md">
+                Start Challenge
+            </button>
+            <button id="pause-button" 
+                    class="w-full sm:w-auto px-6 py-3 text-lg font-semibold rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-200 shadow-md disabled:opacity-50"
+                    disabled>
+                Pause
+            </button>
+            <button id="skip-button" 
+                    class="w-full sm:w-auto px-6 py-3 text-lg font-semibold rounded-lg text-white bg-yellow-600 hover:bg-yellow-700 transition duration-200 shadow-md disabled:opacity-50"
+                    disabled>
+                Skip Code
+            </button>
+        </div>
+
+        <div class="bg-[#20232a] text-white p-6 rounded-xl shadow-xl mb-6">
+            <div class="grid grid-cols-2 gap-4">
+                
+                <div class="flex flex-col items-center">
+                    <div class="text-xs font-semibold uppercase text-red-400" id="timer-label">Time Left</div>
+                    <div class="text-3xl md:text-4xl font-extrabold mt-1 text-red-500" id="timer">60</div>
+                </div>
+
+                <div class="bg-gray-900 p-3 rounded-lg flex flex-col justify-center items-center shadow-inner">
+                    <div class="text-xs font-medium uppercase text-gray-300">Live Accuracy</div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-yellow-400 mt-1" id="live-accuracy">0%</div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="code-container" class="bg-[#1d1e23] text-gray-300 p-6 rounded-xl shadow-inner mb-6 overflow-x-auto transition-all duration-300">
+            <div id="code-display" class="select-none">
+                <span class="text-xl text-gray-500">Press "Start Challenge" to begin!</span>
+            </div>
+        </div>
+
+        <textarea id="typing-input" rows="5" placeholder="Start typing the code here after pressing 'Start Challenge'..." 
+                      class="w-full p-4 border-2 border-gray-700 rounded-lg text-gray-100 bg-gray-900 text-lg resize-none disabled:bg-gray-900 disabled:cursor-not-allowed focus:border-sky-500 transition duration-150"
+                      disabled></textarea>
+
+        <div id="results-area" class="hidden fixed inset-0 bg-gray-900 bg-opacity-90 flex items-center justify-center z-50 p-4">
+            <div class="bg-gray-800 rounded-xl p-8 w-full max-w-md shadow-2xl text-center border-2 border-sky-600">
+                <h2 id="modal-title" class="text-3xl font-extrabold text-sky-400 mb-4">Challenge Result!</h2>
+                <div class="space-y-3 mb-6 text-gray-200">
+                    <p class="text-xl font-semibold">Accuracy: <span id="accuracy-result" class="text-yellow-400">0</span>%</p>
+                    <p id="time-taken-result" class="text-md text-gray-400 hidden">Time Taken: <span id="time-taken-value" class="font-bold">--</span> seconds</p>
+                </div>
+
+                <button id="restart-button" 
+                        class="mt-6 px-6 py-3 text-lg font-semibold rounded-lg text-white bg-sky-600 hover:bg-sky-700 transition duration-200 shadow-lg">
+                    Try Another Code
+                </button>
+            </div>
+        </div>
+        
+        <footer class="mt-8 pt-4 border-t border-gray-700 text-center text-gray-400">
+            <p class="mt-2 text-sm text-gray-500 mb-2">
+                Designed & Developed by: 
+                <span class="font-semibold text-gray-300">Tehreem Rana</span>, 
+                <span class="font-semibold text-gray-300">Sanilah Ahmed</span>, 
+                <span class="font-semibold text-gray-300">Wareesha</span>, and 
+                <span class="font-semibold text-gray-300">Hooriya Kashif</span>
+            </p>
+            
+            <a href="https://www.linkedin.com/in/tehreem22/" target="_blank" class="inline-block mx-2 text-sky-400 hover:text-sky-300 transition duration-150" aria-label="Tehreem Rana's LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.553-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.712 7 2.055v7.18z"/>
+                </svg>
+            </a>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="ui.js"></script>  
+    <script src="game.js"></script>
+</body>
+</html>
