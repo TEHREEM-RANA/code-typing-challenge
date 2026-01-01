@@ -10,6 +10,9 @@
   <b>🔗 Direct Link:</b> <a href="https://tehreem-rana.github.io/code-typing-challenge/">https://tehreem-rana.github.io/code-typing-challenge/</a>
 </p>
 
+<p align="center">
+  <b>🚀 Master your coding speed with real-time WPM and Accuracy metrics.</b>
+</p>
 ---
 
 ## 🚀 Project Overview
