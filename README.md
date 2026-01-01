@@ -1,15 +1,5 @@
 <h1 align="center">⌨️ Code Typing Challenge (OOP Project)</h1>
 
-<!-- <p align="center">
-  <a href="https://tehreem-rana.github.io/code-typing-challenge/" target="_blank">
-    <img src="https://img.shields.io/badge/Visit%20Live%20Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
-  </a>
-</p> -->
-
-<p align="center">
-  <b>🔗 Direct Link:</b> <a href="https://tehreem-rana.github.io/code-typing-challenge/">https://tehreem-rana.github.io/code-typing-challenge/</a>
-</p>
-
 <p align="center">
   <b>🚀 Master your coding speed with real-time WPM and Accuracy metrics.</b>
 </p>
@@ -22,6 +12,19 @@ A **Java-based typing game** built to bridge the gap between backend logic and i
 > **University Project:** 2nd Semester OOP Lab Project  
 > **Supervisor:** Sir Sobaan Shakeel  
 > **Course:** Object-Oriented Programming (UBIT)
+
+---
+
+## 🔗 Live Demo & Website
+Ab aap is project ko live test kar sakte hain yahan:
+
+<p align="left">
+  <a href="https://tehreem-rana.github.io/code-typing-challenge/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20Live%20Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
+
+**Direct Link:** [https://tehreem-rana.github.io/code-typing-challenge/](https://tehreem-rana.github.io/code-typing-challenge/)
 
 ---
 
