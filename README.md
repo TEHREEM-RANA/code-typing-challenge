@@ -1,13 +1,13 @@
-# ⌨️ Code Typing Challenge (OOP Project)
+<h1 align="center">⌨️ Code Typing Challenge (OOP Project)</h1>
 
 <p align="center">
-  <img src="./Screenshot%202026-01-01%20141532.png" width="10%" alt="Project Preview" />
+  <a href="https://tehreem-rana.github.io/code-typing-challenge/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20Live%20Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://tehreem-rana.github.io/code-typing-challenge/"><b>🌐 Live Demo</b></a> |
-  <a href="#-how-the-game-works"><b>🕹️ How to Play</b></a> |
-  <a href="#-oop-concepts-used"><b>🧠 Core Logic</b></a>
+  <b>🚀 Master your coding speed with real-time WPM and Accuracy metrics.</b>
 </p>
 
 ---
