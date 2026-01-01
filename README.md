@@ -16,15 +16,9 @@ A **Java-based typing game** built to bridge the gap between backend logic and i
 ---
 
 ## 🔗 Live Demo & Website
-Ab aap is project ko live test kar sakte hain yahan:
+The project is deployed and available for live testing here:
 
-<p align="left">
-  <a href="https://tehreem-rana.github.io/code-typing-challenge/" target="_blank">
-    <img src="https://img.shields.io/badge/Visit%20Live%20Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
-  </a>
-</p>
-
-**Direct Link:** [https://tehreem-rana.github.io/code-typing-challenge/](https://tehreem-rana.github.io/code-typing-challenge/)
+**Link:** [https://tehreem-rana.github.io/code-typing-challenge/](https://tehreem-rana.github.io/code-typing-challenge/)
 
 ---
 
