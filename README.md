@@ -1,75 +1,71 @@
-⌨️ Code Typing Challenge Game (OOPs Project)
+# ⌨️ Code Typing Challenge (OOP Project)
 
-A Code Typing Challenge Game developed using Java (OOP concepts) with a HTML & CSS based interface.
-The game helps users improve their coding typing speed by showing live WPM (Words Per Minute) and accuracy while typing code, and displays a final performance report after completion.
-This project is created as an Object-Oriented Programming (OOP) lab project under the supervision of Lab Assistant: Sir Sobaan Shakeel.
+<p align="center">
+  <img src="./Screenshot%202026-01-01%20141532.png" width="100%" alt="Project Preview" />
+</p>
 
-🎯 Project Purpose
-The purpose of this project is to:
-Apply Object-Oriented Programming concepts in Java
-Improve programming typing skills
-Calculate real-time WPM and accuracy
-Build an interactive and educational typing game for students
+<p align="center">
+  <a href="https://tehreem-rana.github.io/code-typing-challenge/"><b>🌐 Live Demo</b></a> |
+  <a href="#-how-the-game-works"><b>🕹️ How to Play</b></a> |
+  <a href="#-oop-concepts-used"><b>🧠 Core Logic</b></a>
+</p>
 
-🎮 Features
+---
 
-Code-based typing challenges
-Live WPM calculation
-Live typing accuracy (%)
-Timer-based typing system
-Final result summary after completing the challenge
-Clean and simple UI using HTML & CSS
+## 🚀 Project Overview
+A **Java-based typing game** built to bridge the gap between backend logic and interactive UI. This project helps developers master their typing speed for code rather than just plain text, providing real-time metrics for Words Per Minute (WPM) and accuracy.
 
-🧠 OOP Concepts Used (Java)
-Classes and Objects
-Encapsulation
-Abstraction
-Inheritance
-Polymorphism
+> **University Project:** 2nd Semester OOP Lab Project  
+> **Supervisor:** Sir Sobaan Shakeel  
+> **Course:** Object-Oriented Programming (UBIT)
 
-🕹️ How the Game Works
-A code snippet is displayed on the screen
-The user starts typing the code
-The system:
-Tracks time
-Calculates WPM live
-Calculates accuracy in real time
-When typing is completed:
-Final WPM is shown
-Final accuracy is shown
-Performance summary is displayed
+---
 
-📥 Input
-User keystrokes (typed code)
+## 🧠 OOP Architecture
+This project serves as a practical implementation of **Object-Oriented Programming** principles. The backend logic is structured using:
 
-📤 Output
-Live WPM
-Live Accuracy
-Final Typing Speed
-Final Accuracy Report
+* **Classes & Objects:** Modular design for game states and user metrics.
+* **Encapsulation:** Secure handling of user data and performance calculations.
+* **Abstraction:** Hiding complex timing logic behind simple interfaces.
+* **Inheritance & Polymorphism:** Scalable code structure for different challenge types.
 
-🛠 Technologies Used
-Java (Object-Oriented Programming)
-HTML (Structure)
-CSS (Styling)
+---
 
-🎯 Intended Users
-Programming students
-OOP learners
-Beginners who want to improve typing speed for code
+## 🎮 Key Features
+- **Code-Specific Challenges:** Real programming snippets instead of generic text.
+- **Real-Time Analytics:** Live tracking of **WPM** and **Accuracy (%)**.
+- **Interactive UI:** A clean interface built with **HTML & CSS** for a modern feel.
+- **Performance Report:** Detailed summary displayed instantly upon completion.
 
-👨‍🏫 Lab Details
-Course: Object-Oriented Programming (OOP)
-Lab Assistant: Sir Sobaan Shakeel
-Project Type: 2nd Semester Lab Project
+---
 
-📌 Future Enhancements
-Multiple difficulty levels
-More programming language code challenges
-Leaderboard system
-User login and profiles
-GUI improvements
+## 🛠️ Tech Stack
+| Layer | Technology |
+| :--- | :--- |
+| **Logic** | Java (OOP) |
+| **Structure** | HTML5 |
+| **Style** | CSS3 |
+| **Deployment** | GitHub Pages |
 
-📄 License
-This project is developed for academic and educational purposes only.
-⭐ If you like this project, don’t forget to give it a star on GitHub!
+---
+
+## 🕹️ How the Game Works
+1.  **Selection:** The system loads a specific code snippet.
+2.  **Tracking:** As soon as you start typing, the timer initiates.
+3.  **Live Feedback:** The system monitors every keystroke to calculate accuracy and speed.
+4.  **Final Result:** Once finished, you receive a full breakdown of your performance.
+
+---
+
+## 📌 Future Enhancements
+- [ ] **Multi-Language Support:** Challenges for Python, C++, and JavaScript.
+- [ ] **Difficulty Tiers:** Levels ranging from "Beginner" to "Senior Dev."
+- [ ] **Global Leaderboard:** Saving high scores using local storage or a backend.
+
+---
+
+## 👥 Contributors
+- **Tehreem Rana** - Lead Developer & Student at UBIT.
+- **Sir Sobaan Shakeel** - Project Guidance (Lab Assistant).
+
+---
