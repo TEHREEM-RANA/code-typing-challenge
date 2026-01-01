@@ -1,7 +1,7 @@
 # ⌨️ Code Typing Challenge (OOP Project)
 
 <p align="center">
-  <img src="./Screenshot%202026-01-01%20141532.png" width="100%" alt="Project Preview" />
+  <img src="./Screenshot%202026-01-01%20141532.png" width="10%" alt="Project Preview" />
 </p>
 
 <p align="center">
