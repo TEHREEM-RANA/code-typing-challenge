@@ -18,7 +18,7 @@ A **Java-based typing game** built to bridge the gap between backend logic and i
 ## 🔗 Live Demo & Website
 The project is deployed and available for live testing here:
 
-**Link:** [https://tehreem-rana.github.io/code-typing-challenge/](https://tehreem-rana.github.io/code-typing-challenge/)
+**Link:**https://code-typing-challenge-theta.vercel.app/
 
 ---
 
